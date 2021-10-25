@@ -1,0 +1,42 @@
+#navbar {
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+#navbar-menu {
+    display:flex;
+    justify-content:space-between;
+    width: 30vw;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;    
+}
+#body{
+    flex-grow: 1;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#paragraf-image{
+    border: 5px solid black;    
+    border-radius: 2%;
+}
